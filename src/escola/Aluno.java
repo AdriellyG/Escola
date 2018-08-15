@@ -12,7 +12,7 @@ public class Aluno {
     public void setNome(String nome){
         this._nome = nome;
     }
-    public void setCursos(Curso curso){
+    public void setCurso(Curso curso){
         this._curso = curso;
     }
     
