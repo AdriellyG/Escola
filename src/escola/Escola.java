@@ -38,7 +38,7 @@ public class Escola {
         d.setNome("Estrutura de dados");
         d.setProfessor(p);
         
-        d2.setId(1);
+        d2.setId(2);
         d2.setNome("Banco de dados");
         d2.setProfessor(p2);
         
@@ -55,7 +55,9 @@ public class Escola {
         
         for (Matricula matricula : m) {
             System.out.println("Matricula nº: " + matricula.getId());
-            System.out.println(matricula.toString());
+            System.out.println("\n" + matricula.toString());
+            System.out.println("********************************************");
+            System.out.println("********************************************");
             System.out.println("********************************************");
         }
     }

@@ -31,8 +31,9 @@ public class Matricula {
     
     
     public String toString(){
-        return "- Aluno: " + _aluno.getNome() + "\n- Disciplina: "+ _disciplina.getNome()
-                + "\n- Professor: " + _disciplina.getProfessor().getNome() 
-                + "\n- Curso: " + _aluno.getCurso().getNome();
+        return _aluno.toString() + "\n\n"
+                + _disciplina.toString() + "\n\n"
+                + _aluno.getCurso().toString() + "\n\n"
+                + _disciplina.getProfessor().toString();
     }
 }

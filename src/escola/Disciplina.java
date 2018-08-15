@@ -28,4 +28,11 @@ public class Disciplina {
         return _professor;
     }
     
+    public String toString(){
+        return "+-------------- Disciplina --------------" +
+               "\n|Id: " + getId() +
+               "\n|Nome: " + getNome() +
+               "\n|Professor: " + getProfessor().getNome();
+    }
+    
 }

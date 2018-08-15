@@ -20,4 +20,11 @@ public class Professor {
     public String getNome(){
         return _nome;
     }
+    
+    public String toString(){
+        return "+-------------- Professor --------------" +
+               "\n|Id: " + getId() +
+               "\n|Nome: " + getNome();
+        
+    }
 }

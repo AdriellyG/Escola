@@ -25,4 +25,11 @@ public class Aluno {
     public Curso getCurso(){
         return _curso;
     }
+    
+    public String toString(){
+        return "+-------------- Aluno --------------" +
+               "\n|Id: " + getId() +
+               "\n|Nome: " + getNome() +
+               "\n|Curso: " + getCurso().getNome();
+    }
 }

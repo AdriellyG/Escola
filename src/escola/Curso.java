@@ -21,4 +21,10 @@ public class Curso {
         return _nome;
     }
     
+    public String toString(){
+        return "+-------------- Curso --------------" +
+               "\n|Id: " + getId() +
+               "\n|Nome: " + getNome();
+    }
+    
 }
